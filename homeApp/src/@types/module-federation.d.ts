@@ -3,3 +3,13 @@ declare module "remoteApp/Home" {
     export default Home;
   }
   
+
+  declare module "designApp/Action" {
+    const Action: React.ComponentType;
+    export default Action;
+  }
+
+  declare module "designApp/Products" {
+    const Products: React.ComponentType;
+    export default Products;
+  }

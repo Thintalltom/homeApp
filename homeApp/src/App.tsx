@@ -1,10 +1,14 @@
 import Home from 'remoteApp/Home'
+import Action from 'designApp/Action'
+import Products from 'designApp/Products'
 
 function App() {
   return (
     <>
     <Home />
-      <p>Design</p>
+    <Action />
+    <Products />
+      <p>Home page 1</p>
    
     </>
   );

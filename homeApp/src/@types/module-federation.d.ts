@@ -13,3 +13,15 @@ declare module "remoteApp/Home" {
     const Products: React.ComponentType;
     export default Products;
   }
+
+
+  
+  declare module "remoteApp/Alt" {
+    const Products: React.ComponentType;
+    export default Products;
+  }
+  
+  declare module "designApp/Apx" {
+    const Products: React.ComponentType;
+    export default Products;
+  }

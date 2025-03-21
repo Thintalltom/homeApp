@@ -8,7 +8,7 @@ export default defineConfig({
     federation({
       name: "app",
       remotes: {
-        remoteApp : "http://localhost:5176/assets/remoteEntries.js", // Expose this component
+        remoteApp : "https://altapp.vercel.app/assets/remoteEntries.js", // Expose this component
       },
       shared: ["react", "react-dom"], // Share dependencies
     }),

@@ -6,13 +6,13 @@ const RemoteProduct = React.lazy(() => import("designApp/Apx"));
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Navbar />} />
-        <Route path="/design" element={<Suspense fallback={<p>Loading...</p>}><RemoteAction /></Suspense>} />
-        <Route path="/altapp" element={<Suspense fallback={<p>Loading...</p>}><RemoteProduct /></Suspense>} />
-      </Routes>
-    </Router>
+  <div>
+    <Navbar />
+<RemoteAction />
+      <RemoteProduct />
+  </div>
+
+     
   );
 }
 
